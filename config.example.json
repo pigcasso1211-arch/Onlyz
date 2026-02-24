@@ -1,0 +1,97 @@
+{
+  "timezone": "Asia/Shanghai",
+  "schedule": {
+    "hour": 11,
+    "minute": 0
+  },
+  "notify": {
+    "webhook_url": "",
+    "alert_apr_below": 1.5
+  },
+  "exchanges": [
+    {
+      "name": "Binance",
+      "coins": ["USDT", "BTC", "ETH"],
+      "source": {
+        "kind": "manual",
+        "apr_map": {
+          "USDT": 3.1,
+          "BTC": 1.2,
+          "ETH": 1.8
+        }
+      }
+    },
+    {
+      "name": "OKX",
+      "coins": ["USDT", "BTC", "ETH"],
+      "source": {
+        "kind": "manual",
+        "apr_map": {
+          "USDT": 2.9,
+          "BTC": 1.1,
+          "ETH": 1.7
+        }
+      }
+    },
+    {
+      "name": "Bybit",
+      "coins": ["USDT", "BTC", "ETH"],
+      "source": {
+        "kind": "manual",
+        "apr_map": {
+          "USDT": 3.0,
+          "BTC": 1.0,
+          "ETH": 1.6
+        }
+      }
+    },
+    {
+      "name": "KuCoin",
+      "coins": ["USDT", "BTC", "ETH"],
+      "source": {
+        "kind": "manual",
+        "apr_map": {
+          "USDT": 2.8,
+          "BTC": 0.9,
+          "ETH": 1.5
+        }
+      }
+    },
+    {
+      "name": "Gate",
+      "coins": ["USDT", "BTC", "ETH"],
+      "source": {
+        "kind": "manual",
+        "apr_map": {
+          "USDT": 2.7,
+          "BTC": 0.8,
+          "ETH": 1.4
+        }
+      }
+    },
+    {
+      "name": "Bitget",
+      "coins": ["USDT", "BTC", "ETH"],
+      "source": {
+        "kind": "manual",
+        "apr_map": {
+          "USDT": 2.6,
+          "BTC": 0.8,
+          "ETH": 1.3
+        }
+      }
+    },
+    {
+      "name": "HTX",
+      "coins": ["USDT", "BTC", "ETH"],
+      "source": {
+        "kind": "manual",
+        "apr_map": {
+          "USDT": 2.5,
+          "BTC": 0.7,
+          "ETH": 1.2
+        }
+      }
+    }
+  ]
+}
